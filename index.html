@@ -81,26 +81,22 @@
   <main>
     <img class="art-banner" src="Itzlilly_Artwork.png" alt="Custom Artwork of Teen Itzlilly">
     <div class="section">
-      
       <div style="margin-top: 15px;">
         <a href="https://www.youtube.com/@Lilly-Marlee?sub_confirmation=1" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #ff66b2; color: white; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 10px;">Subscribe to Itzlilly</a>
       </div>
     </div>
     <div class="section">
-  <h2>Watch Itzlilly in Action!</h2>
-  <div id="videoContainer"></div>
-</div>
-<script>
-  const videoIds = ["rs-6OEa_AM4", "XZk1W0NsX_g", "UttwAS0Udfk", "AgvmeKZ-GcQ", "6qEO0jL7dHg"];
-  const randomId = videoIds[Math.floor(Math.random() * videoIds.length)];
-  window.onload = () => {
-    document.getElementById("videoContainer").innerHTML =
-      `<iframe width="560" height="315" src="https://www.youtube.com/embed/${randomId}" frameborder="0" allowfullscreen></iframe>`;
-  };
-</script>
-    
-    
-    
+      <h2>Watch Itzlilly in Action!</h2>
+      <div id="videoContainer"></div>
+    </div>
+    <script>
+      const videoIds = ["rs-6OEa_AM4", "XZk1W0NsX_g", "UttwAS0Udfk", "AgvmeKZ-GcQ", "6qEO0jL7dHg"];
+      const randomId = videoIds[Math.floor(Math.random() * videoIds.length)];
+      window.onload = () => {
+        document.getElementById("videoContainer").innerHTML =
+          `<iframe width="560" height="315" src="https://www.youtube.com/embed/${randomId}" frameborder="0" allowfullscreen></iframe>`;
+      };
+    </script>
   </main>
   <div class="footer">
     <p>Made with love for Itzlilly ✨ | Drawing, art, and creativity!</p>
