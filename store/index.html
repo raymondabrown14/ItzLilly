@@ -12,20 +12,60 @@
       padding: 0;
       background: linear-gradient(to right, #ffe3f0, #e4f0ff);
       color: #3d2c3c;
-      text-align: center;
-      padding: 40px;
     }
-    h1 {
+    header {
+      background-color: #ffb5e8;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
       color: #7c2a8a;
       font-family: 'Indie Flower', cursive;
     }
-    p {
-      font-size: 1.2rem;
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #7c2a8a;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #c441c2;
+    }
+    main {
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .footer {
+      background-color: #ffd6f5;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>Itzlilly Store</h1>
-  <p>Shop is launching soon with creative goodies!</p>
+  <header>
+    <h1>Itzlilly Store</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../blog/index.html">Blog</a>
+      <a href="../store/index.html">Store</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Store Launching Soon!</h2>
+    <p>Fun merch and creative goodies are on the way.</p>
+  </main>
+  <div class="footer">
+    <p>Made with love for Itzlilly ✨ | Drawing, art, and creativity!</p>
+  </div>
 </body>
 </html>
